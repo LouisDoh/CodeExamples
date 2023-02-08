@@ -29,6 +29,23 @@ void inheritanceEx() {
 	myDog.introduce();
 }
 
+void virtualExample() {
+	Dog myDog(10, 40, "Spot", "Brown");
+	myDog.speak(); //always works because it's explicitly a dog
+	std::cout << std::endl;
+
+	Animal* pointerAnimal;
+	pointerAnimal = &myDog;
+
+	pointerAnimal->speak();
+	std::cout << std::endl;
+	//No virtual keyword -> "The animal makes a noise..."
+	//With virtual keyword -> "The dog barks."
+
+	Animal normalAnimal(10, 100, "Mystery");
+	normalAnimal.speak(); //still works even with 'virtual'
+}
+
 int main() {
-	inheritanceEx();
+	virtualExample();
 }

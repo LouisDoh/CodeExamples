@@ -7,3 +7,7 @@ Animal::Animal(int age, int weight, std::string name) :
 void Animal::introduce() {
 	std::cout << "Hi, I'm " << name << " and I'm " << age << " years old.";
 }
+
+void Animal::speak() {
+	std::cout << "The animal makes a noise...";
+}
