@@ -3,7 +3,7 @@
 
 #include <iostream>
 
-int main()
-{
-    std::cout << "Hello World!\n";
+int main() {
+    std::string myString = "Hello World!";
+    std::cout << myString;
 }
