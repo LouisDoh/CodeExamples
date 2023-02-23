@@ -4,6 +4,14 @@
 #include <iostream>
 
 int main() {
-    std::string myString = "Hello World!";
+    std::string myString; //declaration
+    myString = "Hello World"; //assignment
+
+    /* block comment
+    that can go over
+    multiple lines */
+
+    //std::string myString = "Hello World";
+
     std::cout << myString;
 }
