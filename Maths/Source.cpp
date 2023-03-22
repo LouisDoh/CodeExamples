@@ -26,6 +26,18 @@ void commonMathsFunctions(const int numOne, const int numTwo, const double decim
 	//etc
 }
 
+void underAndOver() {
+	short myShort = 32767;
+	std::cout << "This is the maximum value of a short: " << myShort << "\n";
+	myShort += 1;
+	std::cout << "This is it + 1 (overflow): " << myShort << "\n";
+
+	short myLowShort = -32768;
+	std::cout << "This is the most negative value of a short: " << myLowShort << "\n";
+	myLowShort -= 1;
+	std::cout << "This is what happens if I subtract 1 (underflow): " << myLowShort;
+}
+
 int main() {
-	commonMathsFunctions(1,2,5.5);
+	underAndOver();
 }
