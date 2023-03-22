@@ -1,7 +1,7 @@
 #include <iostream>
 
 int randNumber(const int start,const int rangeWidth) {
-	srand(time(NULL)); /*try commenting this out and running the program a couple times -
+	srand(time(NULL)); /*try commenting this out and running the function with the same args a couple times -
 	you'll always get the same number*/
 	int num = rand(); //random number between 0 and RAND_MAX
 	num = num % rangeWidth; //random number now in range 0 to rangeWidth
