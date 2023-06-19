@@ -15,6 +15,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Maths", "Maths\Maths.vcxpro
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HelloWorld", "HelloWorld\HelloWorld.vcxproj", "{F0A9C078-4606-4675-BBA1-76249B0AD380}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Data Structures", "Data Structures\Data Structures.vcxproj", "{590A0FE6-02E6-4C4B-9F7A-1BAE2FA8AEA9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -71,6 +73,14 @@ Global
 		{F0A9C078-4606-4675-BBA1-76249B0AD380}.Release|x64.Build.0 = Release|x64
 		{F0A9C078-4606-4675-BBA1-76249B0AD380}.Release|x86.ActiveCfg = Release|Win32
 		{F0A9C078-4606-4675-BBA1-76249B0AD380}.Release|x86.Build.0 = Release|Win32
+		{590A0FE6-02E6-4C4B-9F7A-1BAE2FA8AEA9}.Debug|x64.ActiveCfg = Debug|x64
+		{590A0FE6-02E6-4C4B-9F7A-1BAE2FA8AEA9}.Debug|x64.Build.0 = Debug|x64
+		{590A0FE6-02E6-4C4B-9F7A-1BAE2FA8AEA9}.Debug|x86.ActiveCfg = Debug|Win32
+		{590A0FE6-02E6-4C4B-9F7A-1BAE2FA8AEA9}.Debug|x86.Build.0 = Debug|Win32
+		{590A0FE6-02E6-4C4B-9F7A-1BAE2FA8AEA9}.Release|x64.ActiveCfg = Release|x64
+		{590A0FE6-02E6-4C4B-9F7A-1BAE2FA8AEA9}.Release|x64.Build.0 = Release|x64
+		{590A0FE6-02E6-4C4B-9F7A-1BAE2FA8AEA9}.Release|x86.ActiveCfg = Release|Win32
+		{590A0FE6-02E6-4C4B-9F7A-1BAE2FA8AEA9}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

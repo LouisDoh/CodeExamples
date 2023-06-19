@@ -47,5 +47,7 @@ void virtualExample() {
 }
 
 int main() {
-	virtualExample();
+	int quantity = 5;
+	std::string item = "beans";
+	std::cout << quantity <<  (" " + item + "(s) in stock");
 }
