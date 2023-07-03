@@ -14,6 +14,7 @@ void automaticVsDynamic() {
 	riskyUse = new Person(28, "Dave");
 	riskyUse->happyBirthday(); //arrows rather than dots
 	std::cout << std::endl;
+	delete riskyUse;
 }
 
 void structEx() {
